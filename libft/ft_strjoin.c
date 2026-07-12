@@ -1,3 +1,15 @@
+
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strjoin.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: jtripp <jtripp@student.42wolfsburg.de>     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/07/12 11:52:41 by jtripp            #+#    #+#             */
+/*   Updated: 2026/07/12 11:52:52 by jtripp           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
 char	*ft_strjoin(char const *s1, char const *s2)
