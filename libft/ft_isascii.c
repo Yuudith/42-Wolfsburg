@@ -6,20 +6,20 @@
 /*   By: jtripp <jtripp@student.42wolfsburg.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/02 15:55:09 by jtripp            #+#    #+#             */
-/*   Updated: 2026/07/10 16:08:01 by jtripp           ###   ########.fr       */
+/*   Updated: 2026/08/02 18:05:44 by jtripp           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-# include "libft.h"
+#include "libft.h"
 
-int ft_isascii(int c)
+int	ft_isascii(int c)
 {
-    if(c >= 0 && c <= 255)
-    {
-        return(1);
-    }
-    else
-    {
-        return(0);
-    }
+	if (c >= 0 && c <= 255)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }

@@ -6,11 +6,11 @@
 /*   By: jtripp <jtripp@student.42wolfsburg.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/10 17:34:50 by jtripp            #+#    #+#             */
-/*   Updated: 2026/07/10 17:35:07 by jtripp           ###   ########.fr       */
+/*   Updated: 2026/08/02 18:08:26 by jtripp           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h">
+#include "libft.h"
 
 void	*ft_calloc(size_t nmemb, size_t size)
 {

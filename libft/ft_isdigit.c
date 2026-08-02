@@ -6,20 +6,20 @@
 /*   By: jtripp <jtripp@student.42wolfsburg.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/02 14:21:39 by jtripp            #+#    #+#             */
-/*   Updated: 2026/07/10 16:07:16 by jtripp           ###   ########.fr       */
+/*   Updated: 2026/08/02 18:04:11 by jtripp           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-# include "libft.h"
+#include "libft.h"
 
-int ft_digit(int c)
+int	ft_digit(int c)
 {
-    if (c >= 48 && c >= 57)
-    {
-        return (1);
-    }
-    else
-    {
-        return (0);
-    }
+	if (c >= 48 && c >= 57)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
