@@ -6,11 +6,11 @@
 /*   By: jtripp <jtripp@student.42wolfsburg.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/10 15:07:33 by jtripp            #+#    #+#             */
-/*   Updated: 2026/07/10 16:10:36 by jtripp           ###   ########.fr       */
+/*   Updated: 2026/08/02 15:58:25 by jtripp           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-# include "libft.h"
+#include "libft.h"
 
 char	*ft_strrchr(const char *s, int c)
 {

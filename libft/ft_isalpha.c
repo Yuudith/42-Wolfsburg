@@ -6,11 +6,11 @@
 /*   By: jtripp <jtripp@student.42wolfsburg.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/01 19:58:33 by jtripp            #+#    #+#             */
-/*   Updated: 2026/07/10 16:08:19 by jtripp           ###   ########.fr       */
+/*   Updated: 2026/08/02 17:06:31 by jtripp           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-# include "libft.h"
+#include "libft.h"
 
 int ft_isalpha(char c)
 {

@@ -6,11 +6,11 @@
 /*   By: jtripp <jtripp@student.42wolfsburg.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/10 15:14:41 by jtripp            #+#    #+#             */
-/*   Updated: 2026/07/10 15:15:10 by jtripp           ###   ########.fr       */
+/*   Updated: 2026/08/02 16:28:16 by jtripp           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-# include "libft.h"
+#include "libft.h"
 
 void	*ft_memchr(const void *s, int c, size_t n)
 {

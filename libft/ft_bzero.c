@@ -6,21 +6,23 @@
 /*   By: jtripp <jtripp@student.42wolfsburg.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/04 16:14:39 by jtripp            #+#    #+#             */
-/*   Updated: 2026/07/10 16:09:51 by jtripp           ###   ########.fr       */
+/*   Updated: 2026/08/02 17:04:35 by jtripp           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-# include "libft.h"
+#include "libft.h"
 
-void ft_bzero(void *s, size_t n)
+voidft_bzero (void *s, size_t n)
 {
-    unsigned char *ptr = s;
-    size_t i = 0;
-    
-    while (i < n)
-    {
-        *ptr = 0;
-        ptr++;
-        i++;
-    }
+	unsigned char	*ptr;
+	size_t	i;
+
+	ptr = s;
+	i = 0;
+	while (i < n)
+	{
+		*ptr = 0;
+		ptr++;
+		i++;
+	}
 }
