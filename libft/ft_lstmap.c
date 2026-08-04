@@ -6,7 +6,7 @@
 /*   By: jtripp <jtripp@student.42wolfsburg.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/02 15:54:23 by jtripp            #+#    #+#             */
-/*   Updated: 2026/08/02 18:08:53 by jtripp           ###   ########.fr       */
+/*   Updated: 2026/08/04 15:10:43 by jtripp           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,11 +24,6 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 	while (lst != NULL)
 	{
 		new_content = f(lst->content);
-		if (new_content == NULL)
-		{
-			ft_lstclear(&new_list, del);
-			return (NULL);
-		}
 		new_node = ft_lstnew(new_content);
 		if (new_node == NULL)
 		{

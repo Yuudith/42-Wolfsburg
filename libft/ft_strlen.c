@@ -6,13 +6,13 @@
 /*   By: jtripp <jtripp@student.42wolfsburg.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/02 16:22:33 by jtripp            #+#    #+#             */
-/*   Updated: 2026/08/02 18:07:47 by jtripp           ###   ########.fr       */
+/*   Updated: 2026/08/02 18:31:48 by jtripp           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_ft_strlen(const char *str)
+size_t	ft_strlen(const char *str)
 {
 	size_t	i;
 

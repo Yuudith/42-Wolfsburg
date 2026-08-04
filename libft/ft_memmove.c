@@ -6,7 +6,7 @@
 /*   By: jtripp <jtripp@student.42wolfsburg.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/10 14:58:48 by jtripp            #+#    #+#             */
-/*   Updated: 2026/08/02 17:37:08 by jtripp           ###   ########.fr       */
+/*   Updated: 2026/08/04 15:09:45 by jtripp           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,30 +14,22 @@
 
 void	*ft_memmove(void *dst, const void *src, size_t len)
 {
-	unsigned char		*dstptr;
-	const unsigned char	*srcptr;
+	unsigned char		*d;
+	const unsigned char	*s;
 
 	if (dst == NULL && src == NULL)
 		return (NULL);
-	dstptr = (unsigned char *)dst;
-	srcptr = (const unsigned char *)src;
-	if (dstptr > srcptr)
+	d = (unsigned char *)dst;
+	s = (const unsigned char *)src;
+	if (d > s)
 	{
 		while (len > 0)
 		{
 			len--;
-			dstptr[len] = srcptr[len];
+			d[len] = s[len];
 		}
 	}
 	else
-	{
-		while (len > 0)
-		{
-			*dstptr = *srcptr;
-			dstptr++;
-			srcptr++;
-			len--;
-		}
-	}
+		ft_memcpy(dst, src, len);
 	return (dst);
 }
