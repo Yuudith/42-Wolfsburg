@@ -6,11 +6,11 @@
 /*   By: jtripp <jtripp@student.42wolfsburg.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/02 15:52:29 by jtripp            #+#    #+#             */
-/*   Updated: 2026/08/02 15:52:32 by jtripp           ###   ########.fr       */
+/*   Updated: 2026/08/04 16:37:05 by jtripp           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
+#include "libft.h"
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {

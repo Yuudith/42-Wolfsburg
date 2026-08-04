@@ -6,13 +6,13 @@
 /*   By: jtripp <jtripp@student.42wolfsburg.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/02 14:21:39 by jtripp            #+#    #+#             */
-/*   Updated: 2026/08/02 18:04:11 by jtripp           ###   ########.fr       */
+/*   Updated: 2026/08/04 16:50:24 by jtripp           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_digit(int c)
+int	ft_isdigit(int c)
 {
 	if (c >= 48 && c >= 57)
 	{
