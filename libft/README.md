@@ -20,7 +20,7 @@ Through this project, I practiced core C concepts such as pointer arithmetic, me
 
 The final result is a static library named:
 
-```text
+
 libft.a
 
 This library can be reused in future C projects by including the header file:
@@ -30,7 +30,7 @@ This library can be reused in future C projects by including the header file:
 
 ---
 
-Instructions
+## Instructions
 
 Compilation
 
@@ -63,7 +63,7 @@ make re
 
 ---
 
-Project Structure
+## Project Structure
 
 The project contains:
 
@@ -99,7 +99,7 @@ The list functions are included as part of the regular curriculum and are compil
 
 ---
 
-Function Groups
+## Function Groups
 
 Character Checks and ASCII Transforms
 
@@ -182,14 +182,14 @@ ft_lstmap
 
 ---
 
-Usage Example
+## Usage Example
 
 Example of compiling a file with libft.a:
-
+```bash
 cc -Wall -Wextra -Werror main.c libft.a -o program
-
+```
 Example main.c:
-
+```c
 #include "libft.h"
 #include <stdio.h>
 
@@ -204,11 +204,11 @@ int	main(void)
 	free(str);
 	return (0);
 }
-
+```
 
 ---
 
-Resources
+## Resources
 
 The following resources were useful for understanding the concepts used in this project:
 

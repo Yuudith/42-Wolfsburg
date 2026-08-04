@@ -6,7 +6,7 @@
 #    By: jtripp <jtripp@student.42wolfsburg.de>     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/07/01 20:12:42 by jtripp            #+#    #+#              #
-#    Updated: 2026/08/01 22:35:38 by jtripp           ###   ########.fr        #
+#    Updated: 2026/08/04 18:23:06 by jtripp           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -61,6 +61,8 @@ SRCS = ft_isalpha.c \
 OBJS = $(SRCS:.c=.o)
 
 all: $(NAME)
+
+bonus: all
 
 $(NAME) : $(OBJS)
 	ar rcs $@ $^

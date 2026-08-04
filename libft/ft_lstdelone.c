@@ -6,7 +6,7 @@
 /*   By: jtripp <jtripp@student.42wolfsburg.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/02 15:55:01 by jtripp            #+#    #+#             */
-/*   Updated: 2026/08/02 15:55:04 by jtripp           ###   ########.fr       */
+/*   Updated: 2026/08/04 18:25:08 by jtripp           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,9 @@
 
 void	ft_lstdelone(t_list *lst, void (*del)(void *))
 {
-	if (lst == NULL || del == NULL)
+	if (!lst || !del)
 		return ;
-	del(lst->content);
+	if (lst->content)
+		del(lst->content);
 	free(lst);
 }
